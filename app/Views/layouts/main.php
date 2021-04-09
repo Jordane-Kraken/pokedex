@@ -20,9 +20,8 @@
 </header>
 
 <!-- CONTENT -->
-
 <section>
-
+  <?= $this->renderSection('content') ?>
 </section>
 
 
