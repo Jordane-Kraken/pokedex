@@ -5,7 +5,7 @@ use CodeIgniter\Model;
 class PokemonModel extends Model {
     protected $table = 'pokemon';
     protected $primaryKey = 'id';
-    protected $returnType = 'array';
+    //protected $returnType = 'array';
 
     public function getAllPokemonsWithTypes() {
         $db = \Config\Database::connect();
@@ -25,9 +25,8 @@ class PokemonModel extends Model {
         );
         $builder->join('pokemon_type', 'pokemon_type.type_id = type.id', 'inner');
         $builder->join('pokemon', 'pokemon.numero = pokemon_type.pokemon_numero', 'inner');
-        $builder->orderBy('pokemon.numero');
+        $builder->groupBy('pokemon.numero');
         $query = $builder->get();
-
         return $query->getResultArray(); 
     }
 

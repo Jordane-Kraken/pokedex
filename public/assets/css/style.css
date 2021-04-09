@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .header {
+  margin: 0;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 12px;
@@ -31,6 +32,10 @@
 .pokemon_img {
   width: 50%;
   margin: 0.5em;
+}
+
+.pokemon_type {
+  width: 10%;
 }
 
 .pokemon_card {
