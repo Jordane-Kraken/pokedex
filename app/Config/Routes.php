@@ -33,6 +33,20 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/type-plante', 'Home::plantType');
+$routes->get('/type-eau', 'Home::waterType');
+$routes->get('/type-glace', 'Home::iceType');
+$routes->get('/type-feu', 'Home::fireType');
+$routes->get('/type-insecte', 'Home::bugType');
+$routes->get('/type-acier', 'Home::steelType');
+$routes->get('/type-roche', 'Home::rockType');
+$routes->get('/type-electrik', 'Home::electrikType');
+$routes->get('/type-dragon', 'Home::dragoonType');
+$routes->get('/type-poison', 'Home::poisonType');
+$routes->get('/type-psy', 'Home::psyType');
+$routes->get('/type-sol', 'Home::groundType');
+$routes->get('/type-combat', 'Home::fightType');
+$routes->get('/type-normal', 'Home::normalType');
 
 /*
  * --------------------------------------------------------------------

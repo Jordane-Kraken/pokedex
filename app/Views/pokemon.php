@@ -39,10 +39,11 @@
     <?php elseif ($pokemon['name'] == 'Combat') : ?> 
       <img class="pokemon_type" src='assets/images/combat.png'></img>
     <?php endif ?>
+    <div class="progressBar_div">
     <p>PV : <?= $pokemon['pv'] ?> <progress id="file" max="250" value=<?= $pokemon['pv'] ?>><?= $pokemon['pv'] ?></progress></p>
     <p>Attaque : <?= $pokemon['attaque'] ?> <progress id="file" max="134" value=<?= $pokemon['attaque'] ?>><?= $pokemon['attaque'] ?></progress></p>
     <p>Défense : <?= $pokemon['defense'] ?> <progress id="file" max="180" value=<?= $pokemon['defense'] ?>><?= $pokemon['defense'] ?></progress></p>
-
+    </div>
   </div>
 <?php endforeach ?>
 </section>
