@@ -47,6 +47,7 @@ $routes->get('/type-psy', 'Home::psyType');
 $routes->get('/type-sol', 'Home::groundType');
 $routes->get('/type-combat', 'Home::fightType');
 $routes->get('/type-normal', 'Home::normalType');
+$routes->get('/(:num)', 'PokemonDetails::find/$1');
 
 /*
  * --------------------------------------------------------------------
