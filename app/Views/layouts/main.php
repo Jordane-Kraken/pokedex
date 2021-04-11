@@ -19,7 +19,7 @@
 	<img class='pokeball' src='assets/images/pokeball.png'/>
 </header>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light ">
 <a class="navbar-brand" href="/">Accueil</a>
 <li class="nav-item">Trier par type :</li>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

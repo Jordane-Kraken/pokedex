@@ -4,7 +4,7 @@
   margin: 0;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
-  font-size: 12px;
+  font-size: 10px;
   display : flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -13,17 +13,32 @@
   color: white;
   letter-spacing: 0.2em;
 }
+
 .title {
   padding: 0;
   margin: 0;
 }
+
 .pokeball {
   width: 5%;
   object-fit: contain;
 }
 
 .navbar-collapse {
-  justify-content: center;
+	justify-content: center;
+}
+
+.navbar {
+	background-color: #b0f2b6;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	text-decoration: underline;
+}
+
+.navbar-light .navbar-brand:hover {
+	text-decoration: underline;
 }
 
 .pokemon_section {
@@ -136,7 +151,7 @@
   cursor: pointer;
   outline: none;
   color: #000;
-  background-color: #B0F2B6;
+  background-color: #b0f2b6;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -145,7 +160,7 @@
 .previousButton:hover {background-color: #8dc992}
 
 .previousButton:active {
-  background-color: #3e8e41;
+  background-color: #59b45cdc;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
