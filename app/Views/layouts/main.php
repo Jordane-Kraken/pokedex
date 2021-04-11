@@ -15,7 +15,7 @@
 <!-- HEADER: MENU + HEROE SECTION -->
 <header class='header'>
 	<img class='pokeball' src='assets/images/pokeball.png'/>
-		<h1 class='title'>Pokedex réalisé avec Code Igniter 4</h1>
+		<h1 class='title'>Pokédex réalisé avec Code Igniter 4</h1>
 	<img class='pokeball' src='assets/images/pokeball.png'/>
 </header>
 
@@ -85,7 +85,7 @@
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
 
 <footer>
-<p class="footer">Pokedex - 2021</p>
+<p class="footer">Pokédex - 2021</p>
 </footer>
 
 <!-- SCRIPTS -->
