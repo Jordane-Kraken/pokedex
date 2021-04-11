@@ -38,7 +38,12 @@
     <?php elseif ($pokemon['name'] == 'Combat') : ?> 
       <img class="pokemon_type" src='assets/images/combat.png'></img>
     <?php endif ?>
-    <div class="pokedex_div"><a href="/<?=$pokemon['pokeId']?>"><img src='assets/images/pokedex.png' alt='pokedex' class="pokedex"></a></div>
+    <div class="pokedex_div">
+      <a href="/<?=$pokemon['pokeId']?>" class="pokedex_link">
+      <img src='assets/images/pokedex.png' alt='pokedex' class="pokedex">
+      <span>Ouvrir le pokédex</span>
+      </a>
+    </div>
   </div>
 <?php endforeach ?>
 </section>

@@ -85,9 +85,7 @@
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
 
 <footer>
-	<div>
-		<p>Pokedex - 2021 </p>
-	</div>
+<p class="footer">Pokedex - 2021</p>
 </footer>
 
 <!-- SCRIPTS -->
