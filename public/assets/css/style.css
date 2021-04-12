@@ -181,7 +181,7 @@
   }
 
   #pokedex{
-    display: none;
+		display: none;
   }
 }
 
@@ -902,14 +902,14 @@
 
 	div#stats
 	{
-		height: 230px;
+		height: 240px;
 		width: 280px;
 		padding: 10px;
 		background-color: #b0f2b6;
 		z-index: 1;
 		font-size: 13px;
-		font-family: arial, sans-serif;
-
+		font-family: 'Courier New', Courier, monospace;
+		line-height: 1.2em;
 		position: absolute;
 		top: 130px;
 		left: 25px;
