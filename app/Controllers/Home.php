@@ -9,91 +9,99 @@ class Home extends BaseController
         $pokemon = new PokemonModel();
         $data['pokemons'] = $pokemon->findAll();
         return view('home', $data);
-		}
+    }
+
+ /*   public function typePokemon($type)
+    {
+        $pokemon = new PokemonModel();
+        $data['pokemons'] = $pokemon->getTypePokemons($type);
+        return view('pokemonType', $data);
+
+    }*/
 
     public function plantType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getPlantPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Plante');
         return view('pokemonType', $data);
     } 
 		
     public function waterType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getWaterPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Eau');
         return view('pokemonType', $data);
     } 
     public function iceType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getIcePokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Glace');
         return view('pokemonType', $data);
     } 
     public function fireType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getFirePokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Feu');
         return view('pokemonType', $data);
     } 
     public function bugType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getBugPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Insecte');
         return view('pokemonType', $data);
 		} 
     public function steelType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getSteelPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Acier');
         return view('pokemonType', $data);
 		} 
     public function rockType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getRockPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Roche');
         return view('pokemonType', $data);
 		} 
     public function electrikType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getElectrikPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Electrik');
         return view('pokemonType', $data);
 		} 
     public function dragoonType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getDragoonPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Dragon');
         return view('pokemonType', $data);
     } 
     public function poisonType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getPoisonPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Poison');
         return view('pokemonType', $data);
 		}
     public function psyType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getPsyPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Psy');
         return view('pokemonType', $data);
 		}
     public function groundType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getGroundPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Sol');
         return view('pokemonType', $data);
 		}
     public function fightType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getFightPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Combat');
         return view('pokemonType', $data);
 		}
     public function normalType()
     {
         $pokemon = new PokemonModel();
-        $data['pokemons'] = $pokemon->getNormalPokemons();
+        $data['pokemons'] = $pokemon->getTypePokemons('Normal');
         return view('pokemonType', $data);
-    } 
+    }
 }

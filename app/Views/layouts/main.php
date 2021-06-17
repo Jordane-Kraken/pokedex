@@ -77,7 +77,7 @@
 </nav>
 
 <!-- CONTENT -->
-<section>
+<section id='section'>
   <?= $this->renderSection('content') ?>
 </section>
 
