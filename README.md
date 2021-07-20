@@ -1,4 +1,11 @@
-# Pokedex with CodeIgniter 4
+# Pokedex made with CodeIgniter
+
+List of generation 1 Pokemon 👾
+
+### Technologies
+
+CodeIgniter(php)
+MySql
 
 ## CodeIgniter 4 Framework
 
