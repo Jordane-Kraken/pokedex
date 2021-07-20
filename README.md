@@ -4,8 +4,10 @@ List of generation 1 Pokemon 👾
 
 ### Technologies
 
-CodeIgniter(php)
+CodeIgniter(php)<br>
 MySql
+
+## Getting started : composer install to launch this project
 
 ## CodeIgniter 4 Framework
 
